@@ -60,4 +60,9 @@ public class LejosModuleBuilder extends JavaModuleBuilder {
     private void addLibrary(String library) {
         super.addModuleLibrary(library, "");
     }
+
+    @Override
+    public boolean isAvailable() {
+        return true;
+    }
 }
